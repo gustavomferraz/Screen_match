@@ -9,10 +9,12 @@ public class Main {
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
 
+        //obtendo media de nota do filme
         double media = (9.8 + 6.3 + 8.0) /3;
         System.out.println(media);
         String sinopse;
         sinopse = 
+        //Ultilizando o Text Block
         """ 
             Filme Top Gun
 
@@ -23,7 +25,10 @@ public class Main {
             Ano de Lançamento
 
         """ + anoDeLancamento;
-         
 
+       //casting
+       int classificacao;
+       classificacao = (int) (media /2);
+       System.out.println(classificacao);
     }
 }
